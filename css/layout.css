@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section#top {
+    font-weight: bolder;
+}
+
+.sidenav {
+    background-color: #333;
+}
+
+.sidenav li>a {
+    color: white;
+}
+
+.slider .indicators .indicator-item {
+    background-color: #333;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #6441A4;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.row.grid .cell {
+    flex: auto;
+    flex: 0;
+    flex: 1;
+    margin-left: 0;
+}
+
+section#mid {
+    background-color: white;
+}
+
+section#mid h5 {
+    color: #6441A4;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-left: 2px solid #3b2369;
+    padding-left: 9px;
+}
+
+.card .card-title {
+    color: #3b2369;
+    font-weight: 400;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: purple;
+    font-weight: 400;
+}
+
+.secondary-content {
+    color: #6441A4;
+}
+
+.collection .collection-item.avatar .title {
+    color: #6441A4;
+}
