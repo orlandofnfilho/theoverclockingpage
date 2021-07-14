@@ -59,6 +59,10 @@ section#mid h5 {
     font-weight: 400;
 }
 
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover{
+    color: red;
+}
+
 .secondary-content {
     color: #6441A4;
 }
@@ -66,3 +70,4 @@ section#mid h5 {
 .collection .collection-item.avatar .title {
     color: #6441A4;
 }
+
