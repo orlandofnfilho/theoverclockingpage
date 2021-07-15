@@ -49,26 +49,17 @@ section#mid h4 {
     padding-left: 9px;
 }
 
-.card .card-title{
+.card .card-title {
     font-family: 'Open Sans', sans-serif;
     color: #3b2369;
     font-weight: 400;
 }
-a{
+
+a {
     font-family: 'Open Sans', sans-serif;
     color: #6441A4;
-    font-weight: 600;  
+    font-weight: 600;
 }
-
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: purple;
-    font-weight: 400;
-}
-
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover{
-    color: red;
-}
-
 .secondary-content {
     color: #6441A4;
 }
@@ -77,47 +68,146 @@ a{
     color: #6441A4;
 }
 
-#nome-autor{
+#nome-autor {
     font-weight: 600;
 }
 
-#img-autor{
+#img-autor {
     margin-top: 10px;
 }
 
-.page-footer{
+.page-footer {
     background-color: #333;
     color: white;
 }
 
-.page-footer label{
+.page-footer label {
     color: white;
 }
 
-button, input, optgroup, select, textarea{
-color: white;    
+button, input, optgroup, select, textarea {
+    color: white;
 }
 
-.page-footer .footer-copyright{
+.page-footer .footer-copyright {
     background-color: rgba(51, 51, 51, 0.4);
 }
 
-.social-links ul{
+.social-links ul {
     display: flex;
 }
 
-.social-items{
+.social-items {
     list-style: none;
 }
 
-.social-items a{
+.social-items a {
     padding: 5px 5px;
     font-size: 30px;
     color: #6441A4;
+}
+
+a.btn {
+    border-radius: 10px;
+}
+
+/* Media Queries  */
+
+@media screen and (max-width: 1024px) {
+    p, #nome-autor {
+        font-size: 0.9em;
+    }
+    section#mid h4 {
+        font-size: 1.4em;
+        text-align: left;
+    }
+    h5, .card .card-title {
+        font-size: 1.3em;
+        text-align: left;
+    }
+    a {
+        font-size: 0.9em;
+    }
+    .social-items a{
+        font-size: 25px;
+        
+    }
+    .page-footer{
+        font-size: 0.9em;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    p, #nome-autor {
+        font-size: 0.9em;
+    }
+    section#mid h4 {
+        font-size: 1.4em;
+        text-align: left;
+    }
+    h5, .card .card-title {
+        font-size: 1.3em;
+        text-align: left;
+    }
+    a {
+        font-size: 0.9em;
+    }
+    .social-items a{
+        font-size: 25px;
+        
+    }
+    .page-footer{
+        font-size: 0.9em;
+    }
     
 }
 
-a.btn{
-    border-radius: 10px;
+@media screen and (max-width: 480px) {
+    p, #nome-autor {
+        font-size: 0.9em;
+    }
+    section#mid h4 {
+        font-size: 1.4em;
+        text-align: left;
+    }
+    h5, .card .card-title {
+        font-size: 1.3em;
+        text-align: left;
+    }
+    a {
+        font-size: 0.9em;
+    }
+    .social-items a{
+        font-size: 25px;
+        
+    }
+    .page-footer{
+        font-size: 0.9em;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    p, #nome-autor {
+        font-size: 0.9em;
+    }
+    section#mid h4 {
+        font-size: 1.4em;
+        text-align: left;
+    }
+    h5, .card .card-title {
+        font-size: 1.3em;
+        text-align: left;
+    }
+    a {
+        font-size: 0.9em;
+    }
+    .social-items a{
+        font-size: 25px;
+        
+    }
+    .page-footer{
+        font-size: 0.9em;
+    }
     
 }
