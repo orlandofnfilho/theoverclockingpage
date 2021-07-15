@@ -71,3 +71,10 @@ section#mid h5 {
     color: #6441A4;
 }
 
+#nome-autor{
+    font-weight: 600;
+}
+
+#img-autor{
+    margin-top: 10px;
+}
