@@ -40,7 +40,7 @@ section#mid {
     background-color: white;
 }
 
-section#mid h5 {
+section#mid h4 {
     color: #6441A4;
     font-size: 2em;
     font-weight: bold;
@@ -77,4 +77,36 @@ section#mid h5 {
 
 #img-autor{
     margin-top: 10px;
+}
+
+.page-footer{
+    background-color: #333;
+    color: white;
+}
+
+.page-footer label{
+    color: white;
+}
+
+button, input, optgroup, select, textarea{
+color: white;    
+}
+
+.page-footer .footer-copyright{
+    background-color: rgba(51, 51, 51, 0.4);
+}
+
+.social-links ul{
+    display: flex;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    padding: 5px 5px;
+    font-size: 30px;
+    color: #6441A4;
+    
 }
