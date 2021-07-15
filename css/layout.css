@@ -60,6 +60,7 @@ a {
     color: #6441A4;
     font-weight: 600;
 }
+
 .secondary-content {
     color: #6441A4;
 }
@@ -128,15 +129,20 @@ a.btn {
     a {
         font-size: 0.9em;
     }
-    .social-items a{
+    .social-items a {
         font-size: 25px;
-        
     }
-    .page-footer{
+    .page-footer {
         font-size: 0.9em;
     }
-    
+    .card {
+        height: 380px;
+    }
+    #maislidas {
+        width: 300px;
+    }
 }
+
 @media screen and (max-width: 768px) {
     p, #nome-autor {
         font-size: 0.9em;
@@ -152,14 +158,12 @@ a.btn {
     a {
         font-size: 0.9em;
     }
-    .social-items a{
+    .social-items a {
         font-size: 25px;
-        
     }
-    .page-footer{
+    .page-footer {
         font-size: 0.9em;
     }
-    
 }
 
 @media screen and (max-width: 480px) {
@@ -177,14 +181,12 @@ a.btn {
     a {
         font-size: 0.9em;
     }
-    .social-items a{
+    .social-items a {
         font-size: 25px;
-        
     }
-    .page-footer{
+    .page-footer {
         font-size: 0.9em;
     }
-    
 }
 
 @media screen and (max-width: 320px) {
@@ -202,12 +204,10 @@ a.btn {
     a {
         font-size: 0.9em;
     }
-    .social-items a{
+    .social-items a {
         font-size: 25px;
-        
     }
-    .page-footer{
+    .page-footer {
         font-size: 0.9em;
     }
-    
 }
