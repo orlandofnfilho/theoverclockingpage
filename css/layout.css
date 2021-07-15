@@ -49,9 +49,15 @@ section#mid h4 {
     padding-left: 9px;
 }
 
-.card .card-title {
+.card .card-title{
+    font-family: 'Open Sans', sans-serif;
     color: #3b2369;
     font-weight: 400;
+}
+a{
+    font-family: 'Open Sans', sans-serif;
+    color: #6441A4;
+    font-weight: 600;  
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
@@ -108,5 +114,10 @@ color: white;
     padding: 5px 5px;
     font-size: 30px;
     color: #6441A4;
+    
+}
+
+a.btn{
+    border-radius: 10px;
     
 }
