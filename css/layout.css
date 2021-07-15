@@ -141,6 +141,9 @@ a.btn {
     #maislidas {
         width: 300px;
     }
+    .logo img{
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -163,6 +166,9 @@ a.btn {
     }
     .page-footer {
         font-size: 0.9em;
+    }
+    .logo img{
+        height: 55px;
     }
 }
 
@@ -187,6 +193,10 @@ a.btn {
     .page-footer {
         font-size: 0.9em;
     }
+    .logo img{
+        height: 40px;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -209,5 +219,9 @@ a.btn {
     }
     .page-footer {
         font-size: 0.9em;
+    }
+    .logo img{
+        height: 40px;
+        margin-top: 10px;
     }
 }
