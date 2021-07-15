@@ -111,6 +111,9 @@ button, input, optgroup, select, textarea {
 a.btn {
     border-radius: 10px;
 }
+.logo img{
+    margin-top: 2px;
+}
 
 /* Media Queries  */
 
