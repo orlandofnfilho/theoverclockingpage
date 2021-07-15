@@ -1,2 +1,2 @@
 # theoverclockingpage
-projeto-tocp.netlify.app
+projeto-theoverclockingpage.netlify.app
