@@ -18,7 +18,7 @@
 
 ## 📋 Sobre
 
-Projeto de uma Landing page do **[tOCP](https://theoverclockingpage.com/)**, criado com o objetivo de exercitar os conhecimentos adquiridos no semestre.
+Um projeto de pagina inicial do **[tOCP](https://theoverclockingpage.com/)**, criado com o objetivo de exercitar os conhecimentos adquiridos no semestre.
 
 ---
 
