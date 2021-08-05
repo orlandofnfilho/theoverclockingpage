@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-   <a href="https://projeto-tocp.netlify.app/">Acessar</a>
+   <a href="https://projeto-tocp.netlify.app/">Deploy</a>
 </h3>
 
 <h4 align="center"> 
