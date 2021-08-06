@@ -111,22 +111,36 @@ button, input, optgroup, select, textarea {
 a.btn {
     border-radius: 10px;
 }
-.logo img{
+
+.logo img {
     margin-top: 2px;
 }
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
     font-family: 'Open Sans', sans-serif;
     color: #6441A4;
     font-weight: 600;
 }
 
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover{
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
     font-family: 'Open Sans', sans-serif;
     color: red;
     font-weight: 600;
 }
 
+/* Materialize input/underline focus*/
+
+.input-field input:focus+label {
+    color: #6441A4 !important;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid #6441A4 !important;
+    box-shadow: 0 1px 0 0 #6441A4 !important
+}
+
 /* Media Queries  */
+
 @media screen and (max-width: 1280px) {
     p, #nome-autor {
         font-size: 0.9em;
@@ -151,8 +165,11 @@ a.btn {
     .card {
         height: 380px;
     }
-    .logo img{
+    .logo img {
         margin-top: 5px;
+    }
+    .btn {
+        font-size: 0.8em;
     }
 }
 
@@ -183,8 +200,11 @@ a.btn {
     #maislidas {
         width: 300px;
     }
-    .logo img{
+    .logo img {
         margin-top: 5px;
+    }
+    .btn {
+        font-size: 0.8em;
     }
 }
 
@@ -209,8 +229,11 @@ a.btn {
     .page-footer {
         font-size: 0.9em;
     }
-    .logo img{
+    .logo img {
         height: 55px;
+    }
+    .btn {
+        font-size: 0.8em;
     }
 }
 
@@ -235,9 +258,12 @@ a.btn {
     .page-footer {
         font-size: 0.9em;
     }
-    .logo img{
+    .logo img {
         height: 40px;
         margin-top: 10px;
+    }
+    .btn {
+        font-size: 0.8em;
     }
 }
 
@@ -262,8 +288,11 @@ a.btn {
     .page-footer {
         font-size: 0.9em;
     }
-    .logo img{
+    .logo img {
         height: 40px;
         margin-top: 10px;
+    }
+    .btn {
+        font-size: 0.8em;
     }
 }
