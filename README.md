@@ -40,6 +40,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/orlandolilo/theoverclockingpage
+    $ git clone https://github.com/orlandofnfilho/theoverclockingpage
     
 ```
